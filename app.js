@@ -29,10 +29,10 @@ for(i=0;i<a.length;i++){
 }*/
 
 //Remove the first item
-/*var a=[1,3,5,7,9,2];
+var a=[1,3,5,7,9,2];
 a.shift();
 for(i=0;i<a.length;i++){
     console.log(a[i]);
-}*/
+}
 
 
