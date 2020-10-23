@@ -1,18 +1,18 @@
 //swapping two integers
-/*var x=10;
+var x=10;
 var y=20;
 var a;
 a=x;
 x=y;
 y=a;
-console.log("x="+x,"y="+y);*/
+console.log("x="+x,"y="+y);
 
 //Add a value at last item
-var a=[2,4,6,8,1];
+/*var a=[2,4,6,8,1];
 a.push(5,4);
 for(i=0;i<a.length;i++){
     console.log(a[i]);
-}
+}*/
 
 //Remove the last item
 /*var a=[2,4,6,8,4,1];
