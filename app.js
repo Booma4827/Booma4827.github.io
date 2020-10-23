@@ -35,6 +35,35 @@ for(i=0;i<a.length;i++){
     console.log(a[i]);
 }
  
+//concat()
+var a=[3,5,7,9];
+var b=[1,2,4,5,8];
+var c=a.concat(b);
+for(i=0;i<c.length;i++){
+console.log(c[i]);
+}
+
+//tostring()
+var a=["B","o","o","m","a"];
+var b=a.toString(a);
+console.log(b);
+
+// lastindexof()
+var a=[2,4,6,7,2,9];
+console.log(a.lastIndexOf(2));
+
+//index()
+var a=[1,3,5,7,9];
+console.log(a.indexOf(5));
+
+//splice
+/*var a=[2,5,7,9,1,2];
+var a=a.splice(2,0,4,8);
+for(i=0;i<a.length;i++){
+    console.log(a[i]);
+}*/
+
+
 
 
 
