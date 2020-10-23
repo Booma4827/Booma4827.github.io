@@ -57,12 +57,22 @@ var a=[1,3,5,7,9];
 console.log(a.indexOf(5));
 
 //splice
-/*var a=[2,5,7,9,1,2];
-var a=a.splice(2,0,4,8);
-for(i=0;i<a.length;i++){
-    console.log(a[i]);
-}*/
+var a=[2,5,7,89,1];
+for(i=0;i<a.length;i++)
+{
+    console.log(a.splice(2,0,4,8));
+}
 
+//join()
+var a=[2,4,6,8];
+var c=a.join();
+console.log(c);
+
+//sort()
+var a=[4,6,1,3,5];
+for(i=0;i<a.length;i++){
+    console.log(a.sort(a[i]));    
+}
 
 
 
