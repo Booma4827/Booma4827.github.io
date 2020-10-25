@@ -66,10 +66,29 @@ var a=[2,4,6,8,1];
 console.log(a.includes(4,1));
 
 //indexof()
-var a=[2,3,4,6,7,4,2,3,4,7,3,4];
+var a=[2,3,4,3];
 console.log(a.indexOf(4));
 
+//valueof()
+var a=[2,4,5,6,8,0]
+var v=a.values();
 
+//object
 
-
-
+var students=[{
+    'name':'Booma',
+    'mark':100,
+    'email':'boomacse2@gmail.com',
+    'contact.no':7094330045
+},
+    {
+    'name':'Banu',
+    'mark':200,
+    'email':'sabanu@gmail.com',
+    'contact.no':9344077689
+}]
+for(var i=0;i<students.length;i++){
+var student=students[i];
+for(prop in student){
+    console.log(prop,student[prop] );
+}}
